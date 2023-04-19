@@ -1,4 +1,4 @@
-import { ShareFace, ShareTelegram } from "./share";
+import { ShareFace, ShareTelegram } from "./Share";
 
 
 export function Footer() {
