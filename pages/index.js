@@ -1,7 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import PrimarySearchAppBar from '@/components/NavBar'
+import { Section1 } from '@/components/Section-1'
+import { Section2 } from '@/components/Section-2'
+import { Section3 } from '@/components/Section-3'
+import { Footer } from '@/components/Footer'
+import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +20,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-       <h1>¡Hola Mundo!</h1>
-       <p>¡Bienvenidos!</p>
+       <PrimarySearchAppBar/>
+       <h1>Bienvenidos <AddAPhotoIcon/> </h1>
+       <Section1/>
+       <Section2/>
+       <Section3/>
+       <Footer/>
       </main>
     </>
   )
