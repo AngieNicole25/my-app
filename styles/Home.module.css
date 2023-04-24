@@ -1,0 +1,10 @@
+.Card{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+

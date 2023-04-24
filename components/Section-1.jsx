@@ -1,16 +1,23 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import MovieFilterOutlinedIcon from '@mui/icons-material/MovieFilterOutlined';
+import stylesSection1 from '../styles/Section1.module.css'
 
-
-export function Section1() {
+export default function Section1() {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="md">
-        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} />
-      </Container>
-    </React.Fragment>
+    
+    <Box sx={{display: 'flex',flexDirection: 'column','& > *': {m: 1, },}}
+    >
+        <h1>AsiaFlims 😉</h1>
+        <h2>Series y Peliculas <MovieFilterOutlinedIcon/> </h2>
+        <h3>Variedad de contenido</h3>
+    <ButtonGroup variant="outlined" aria-label="outlined button group">
+         <Button className={stylesSection1.Button}>Todo</Button>
+        <Button className={stylesSection1.Button}>Series</Button>
+        <Button className={stylesSection1.Button}>Movies</Button>
+      </ButtonGroup>
+    </Box>
   );
 }
