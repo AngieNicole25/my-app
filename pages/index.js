@@ -2,11 +2,11 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import PrimarySearchAppBar from '@/components/NavBar'
-import { Section1 } from '@/components/Section-1'
-import { Section2 } from '@/components/Section-2'
-import { Section3 } from '@/components/Section-3'
-import { Footer } from '@/components/Footer'
-import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
+import Section1 from '@/components/Section-1'
+import ActionAreaCard from '@/components/Section-2'
+import Galeria from '@/components/Section-3'
+import Footer from '@/components/Footer'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,11 +21,17 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        <PrimarySearchAppBar/>
-       <h1>Bienvenidos <AddAPhotoIcon/> </h1>
        <Section1/>
-       <Section2/>
-       <Section3/>
-       <Footer/>
+        <section className={styles.Card}>
+        <ActionAreaCard/>
+        <ActionAreaCard/>
+        <ActionAreaCard/>
+        <ActionAreaCard/>
+        <ActionAreaCard/>
+        <ActionAreaCard/>
+        </section>
+        <Galeria/>
+        <Footer/>
       </main>
     </>
   )
