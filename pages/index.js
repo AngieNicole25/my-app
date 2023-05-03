@@ -7,7 +7,7 @@ import Section1 from '@/components/Section-1'
 import Cards from '@/components/Section-2'
 import Galeria from '@/components/Section-3'
 import Footer from '@/components/Footer'
-import cardList from '../public/Lista.json'
+import cardList from '../public/lista.json'
 
 
 const inter = Inter({ subsets: ['latin'] })
