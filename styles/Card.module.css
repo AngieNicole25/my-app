@@ -1,0 +1,35 @@
+.Card{
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    border-radius: 12px;
+    color: #EBEEF5;
+    position: relative;
+    transition: all 0.5s case-out;
+    margin: 1px, 30px;
+    width: 282px;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button {
+    color: gray;
+    border: none;
+    cursor: pointer;
+  }
+  .buttonP {
+    color: gray;
+    border: none;
+    cursor: pointer;
+  }
+  .liked {
+    color: purple;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+
+
