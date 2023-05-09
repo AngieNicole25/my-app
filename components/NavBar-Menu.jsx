@@ -55,7 +55,8 @@ import MoreIcon from '@mui/icons-material/MoreVert';
     );
 
     return (
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+      <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ display: { xs: 'flex', md: 'none' }  }}>
             <IconButton
               size="large"
               aria-label="show more"
@@ -66,8 +67,8 @@ import MoreIcon from '@mui/icons-material/MoreVert';
             >
               <MoreIcon />
             </IconButton>
-
           {renderMenu}
+          </Box>
           </Box>
           
     )

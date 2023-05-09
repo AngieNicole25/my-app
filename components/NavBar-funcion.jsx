@@ -87,7 +87,7 @@ export default function Funcion() {
     ); 
     
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box>
         <AppBar className={stylesNavbar.Navbar} position="static">
     <Toolbar>
         <Box sx={{ flexGrow: 1 }} />
