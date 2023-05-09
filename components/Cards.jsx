@@ -12,15 +12,15 @@ export default function Cards({titulo, img, cambiarFavoritos}) {
  const [liked, setLiked] =useState(false)
 
   return (
-    <Card sx={{ maxWidth: 345 }} className={stylesCard.Card}>
+    <Card sx={{ width: 310, height: 520  }} cols={6} className={stylesCard.Card}>
       <CardActionArea >
         <CardMedia
           component="img"
-          height="500"
+          height="400"
           img src={img}
         />
-        <CardContent>
-          <h4>{titulo}</h4>
+        <CardContent  >
+          <h5>{titulo}</h5>
           <button 
           className={"button " + (liked && "liked")}  
           onClick={() => setLiked (prev => !prev)}>
