@@ -6,37 +6,32 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Hero from '@/components/Hero'
 import Cards from '@/components/Cards'
-import Galeria from '@/components/Galeria'
 import Footer from '@/components/Footer'
-import cardList from '../public/lista.json'
-import stylesCard from '../styles/Card.module.css'
 import stylesNavbar from '../styles/Navbar.module.css'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [characters, setCharacters] = useState ([])
+  const [characters, setCharacters] = useState([])
   
-  const [favoritos, setFavoritos] = useState(0)
-  useEffect(() => {
-    alert("Elementos agregados: " + favoritos)
-  }, [favoritos])
-
-  useEffect(() => {
-    async function getApi() {
-      const res = await axios.get("https://api.myanimelist.net/v2")
-      console.log(res.data.results)
-      setCharacters(res.data.results)
+    
+  
+    const [profile,setProfile] = useState({})
+   
+  
+    useEffect(() => {
+      async function getApi() { 
+        const res = await axios.get("https://rickandmortyapi.com/api/character")      
+        console.log(res.data.results)
+        setCharacters(res.data.results)
+        }
+      getApi()
+    }, [])
+  
+    const handleProfile = (name, image) => {
+      setProfile({name, image})
     }
-    getApi()
-  },[])
-
-  function changeElements(toDo) {
-    toDo 
-    ? setFavoritos(prev => prev + 1)
-    : setFavoritos(prev => prev - 1)
-  }
   return (
     <>
     <Head>
@@ -49,17 +44,24 @@ export default function Home() {
 
       <header className={stylesNavbar.Navbar}> <NavBar/> </header>
 
-      <section> <Hero/> <h4>favoritos {favoritos}</h4> </section>
-    
-
+      <section> <Hero/>  </section>
       {
-      cardList.map(card => {
-        return <Cards className={stylesCard.Card} titulo={card.title} img={card.imageURL} cambiarFavoritos={changeElements}/>
-      })
-      }
+     <div className={styles.background + " "}>            
+     <div className={styles.navbar}>         
+        <h3>{profile.name}</h3>
+        <img src={profile.image}/>
+     </div>
+     
+     { characters.map(characters =>
+     <Cards key={characters}
+       id={characters.id}
+       name={characters.name}
+       image={characters.image}
+       />)
+     }
+    </div>
+}
 
-
-    <section> <Galeria/> </section> 
     
     <Footer/>
     </main>

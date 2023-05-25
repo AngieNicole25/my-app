@@ -1,6 +1,6 @@
 [
     {
-        "title": "My School President",
+        "Name": "My School President",
         "país": "Tailandia",
         "episodios": "12",
         "emitido": "dic 2, 2022 - feb 24, 2023",
@@ -8,10 +8,10 @@
         "original Network": "GMM 25",
         "duración": "55 min.",
         "clasificación del contenido": "13 + - Adolescentes de 13 o más",
-        "imageURL": "https://i.mydramalist.com/0Z8Ve_4c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/0Z8Ve_4c.jpg?v=1"
     },
     {
-        "title": "Boys Over Flowers",
+        "Name": "Boys Over Flowers",
         "país": "Corea del Sur",
         "episodios": "25",
         "emitido": "ene 5, 2009 - mar 31, 2009",
@@ -19,10 +19,10 @@
         "original Network": " KBS2",
         "duración": "1 hr. 5 min.",
         "clasificación del contenido": "15 + - Adolescentes de 15 o más" ,
-        "imageURL": "https://i.mydramalist.com/peoVE_4c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/peoVE_4c.jpg?v=1"
     },
     {
-        "title": "House of Stars",
+        "Name": "House of Stars",
         "país": "Tailandia",
         "episodios": "10",
         "emitido": "may 1, 2023 - ?",
@@ -30,10 +30,10 @@
         "original Network": "GMM One, iQiyi",
         "duración": "",
         "clasificación del contenido": "Sin calificar" ,
-        "imageURL": "https://i.mydramalist.com/poR2e_4c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/poR2e_4c.jpg?v=1"
     },
     {
-        "title": "Love's Coming",
+        "Name": "Love's Coming",
         "país": "Tailandia",
         "episodios": "",
         "emitido": "feb 27, 2014",
@@ -41,10 +41,10 @@
         "original Network": "",
         "duración": " 1 hr. 48 min",
         "clasificación del contenido": "15 + - Adolescentes de 15 o más" ,
-        "imageURL": "https://i.mydramalist.com/ezEYpc.jpg?v=1"
+        "Image": "https://i.mydramalist.com/ezEYpc.jpg?v=1"
     },
     {
-        "title": "Water Boyy The Series",
+        "Name": "Water Boyy The Series",
         "país": "Tailandia",
         "episodios": "14",
         "emitido": "abr 9, 2017 - jul 9, 2017",
@@ -52,10 +52,10 @@
         "original Network": "GMM 25",
         "duración": "45 min.",
         "clasificación del contenido": "G - Todas las edades" ,
-        "imageURL": "https://i.mydramalist.com/kXrVbc.jpg?v=1"
+        "Image": "https://i.mydramalist.com/kXrVbc.jpg?v=1"
     },
     {
-        "title": "Not Me",
+        "Name": "Not Me",
         "país": "Tailandia",
         "episodios": "14",
         "emitido": "dic 12, 2021 - mar 20, 2022",
@@ -63,10 +63,10 @@
         "original Network": "GMM 25",
         "duración": "45 min.",
         "clasificación del contenido": "13 + - Adolescentes de 13 o más" ,
-        "imageURL": "https://i.mydramalist.com/0kjbY_4c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/0kjbY_4c.jpg?v=1"
     },
     {
-        "title": " Love By Chance",
+        "Name": " Love By Chance",
         "país": "Tailandia",
         "episodios": "14",
         "emitido": "ago 3, 2018 - nov 9, 2018",
@@ -74,10 +74,10 @@
         "original Network": " GMM 25, LINE TV",
         "duración": "50 min.",
         "clasificación del contenido": "+18 Restringido (violencia y palabrotas)" ,
-        "imageURL": "https://i.mydramalist.com/kkxobc.jpg?v=1"
+        "Image": "https://i.mydramalist.com/kkxobc.jpg?v=1"
     },
     {
-        "title": "Theory of Love",
+        "Name": "Theory of Love",
         "país": "Tailandia",
         "episodios": "12",
         "emitido": "jun 1, 2019 - ago 17, 2019",
@@ -85,10 +85,10 @@
         "original Network": "GMM 25",
         "duración": "50 min.",
         "clasificación del contenido": "15 + - Adolescentes de 15 o más" ,
-        "imageURL": "https://i.mydramalist.com/WmPJ3c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/WmPJ3c.jpg?v=1"
     },
     {
-        "title": "My Dream The Series",
+        "Name": "My Dream The Series",
         "país": "Tailandia",
         "episodios": "12",
         "emitido": "oct 10, 2018 - dic 26, 2018",
@@ -96,10 +96,10 @@
         "original Network": " LINE TV",
         "duración": "40 min.",
         "clasificación del contenido": "13 + - Adolescentes de 13 o más" ,
-        "imageURL": "https://i.mydramalist.com/lyXWxf.jpg"
+        "Image": "https://i.mydramalist.com/lyXWxf.jpg"
     },
     {
-        "title": "The Effect",
+        "Name": "The Effect",
         "país": "Tailandia",
         "episodios": "3",
         "emitido": "oct 11, 2019 - oct 25, 2019",
@@ -107,10 +107,10 @@
         "original Network": "LINE TV",
         "duración": "57 min.",
         "clasificación del contenido": "+18 Restringido (violencia y palabrotas)" ,
-        "imageURL": "https://i.mydramalist.com/p0yrBc.jpg?v=1"
+        "Image": "https://i.mydramalist.com/p0yrBc.jpg?v=1"
     },
     {
-        "title": "The Untamed",
+        "Name": "The Untamed",
         "país": " China",
         "episodios": "50",
         "emitido": "jun 27, 2019 - ago 7, 2019",
@@ -118,10 +118,10 @@
         "original Network": "Tencent Video",
         "duración": "45 min.",
         "clasificación del contenido": "15 + - Adolescentes de 15 o más" ,
-        "imageURL": "https://i.mydramalist.com/qOrz5c.jpg?v=1"
+        "Image": "https://i.mydramalist.com/qOrz5c.jpg?v=1"
     },
     {
-        "title": "Addicted Heroin",
+        "Name": "Addicted Heroin",
         "país": "China",
         "episodios": "15",
         "emitido": "ene 29, 2016 - feb 23, 2016",
@@ -129,6 +129,6 @@
         "original Network": "",
         "duración": "20 min.",
         "clasificación del contenido": "+18 Restringido (violencia y palabrotas)" ,
-        "imageURL": "https://i.mydramalist.com/Ekjgpc.jpg?v=1"
+        "Image": "https://i.mydramalist.com/Ekjgpc.jpg?v=1"
     }
 ]
