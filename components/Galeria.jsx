@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function Galeria() {
   return (
-    <ImageList sx={{ width: 680, height: 440  }} cols={6}>
+    <ImageList sx={{ width: 680, height: 540  }} >
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -21,51 +21,51 @@ export default function Galeria() {
 
 const itemData = [
   {
-    img: 'https://i.mydramalist.com/BPjw7_4c.jpg?v=1',
-    title: 'Between Us ',
+    img: 'https://as01.epimg.net/meristation/imagenes/2021/10/13/noticias/1634118017_674906_1634118171_noticia_normal.jpg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/d0rgJK_4c.jpg?v=1',
-    title: 'Future',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzzKSo-6aUbTTIhwgjoDv9g2OSfdRNiJRaw7rTWuSpyVL1Z9KSlUXrqUedoPyMv5vy9is&usqp=CAU',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/wPbOb_4c.jpg?v=1',
-    title: 'Big Dragon',
+    img: 'https://i.blogs.es/5eb3fe/the-walking-dead-poster/1366_2000.jpeg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/02EmN_4c.jpg?v=1',
-    title: 'I Will Knock You',
+    img: 'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/SSBH6YNRMFGS7JX2AURFNEOHRY.jpg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/ZpV7J_4c.jpg?v=1',
-    title: 'Hard Love Mission',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGduEHXzEKpeYfxyS4QQ-Q0aWZuBZFfkYpK_OPbgeu9WVpv1gnSiOsubVp7sAy8QrWOhY&usqp=CAU',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/0WEWE_4c.jpg?v=1',
-    title: 'Ghost Host, Ghost House',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSRkgLv6do3QNGBBO8XRLqB6FViu7qTiIfOqYgUiyLCIKxkS5uJ_I93i_ohSLb2-dMGhs&usqp=CAU',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/0kg16_4c.jpg?v=1',
-    title: 'My-Scholl-President',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDiW4ApGfVc9LtD3jueqUj9TGLhVSv6586NEBFivLzBXOiaRlyBQXdGXBvCXcucSLhVUY&usqp=CAU',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/1wwoB6_4c.jpg?v=1',
-    title: 'Love Syndrome III',
+    img: 'https://smoda.elpais.com/wp-content/uploads/2019/02/the-walking-dead-00.jpg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/jKjjO_4c.jpg?v=1',
-    title: 'Ai Long Nhai ',
+    img: 'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/HEITODJ3NBFZDHKI5MINOKHK7A.jpg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/26Nnk_4c.jpg?v=1',
-    title: 'The Eclipse',
+    img: 'https://movieplayer.net-cdn.it/t/images/2022/11/21/the-walking-dead-recensione-finale-stagione-serie-tv-disney-plus_jpg_1280x720_crop_q85.jpg',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/QZ6eY_4c.jpg?v=1',
-    title: '21 Days Theory ',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbS-TBKzaakTIDoF0J9gbAU1cBTnRpP2o4qvwpculXizTeb8elLos_QDmhmjoibBcvxME&usqp=CAU',
+    title: 'The Walking Dead',
   },
   {
-    img: 'https://i.mydramalist.com/122nd_4c.jpg?v=1',
-    title: 'My Only 12%',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9OB7qUed6fgFy24kAiB6vZFNP1nYg1YYND6ZagVpa3OJY1elUCJizdTIngyhwwevhlQ&usqp=CAU',
+    title: 'The Walking Dead',
   },
 ];

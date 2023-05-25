@@ -3,38 +3,34 @@
   display: inline-block;
   text-align: center;
   flex-wrap: wrap;
-  max-width: 300px;
-  padding: 8px;
+  max-width: 380px;
+  padding: 30px;
   border-radius: 12px;
   color: #EBEEF5;
   position: relative;
   transition: all 0.5s case-out;
-  margin: 6px;
+  margin: 10px;
   justify-content: space-around;
   font-style: oblique;
   gap: 15px;
 }
-
-
-
-
-
-
-
-
-
+.image {
+  width: 250px;
+  height: 380px;
+}
+.link {
+  color: blue;
+  align-items: center;
+}
 .button {
-    color: gray;
-    border: none;
-    cursor: pointer;
+  margin: 20px 0;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0099ffef;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
   }
-  .buttonP {
-    color: gray;
-    border: none;
-    cursor: pointer;
-  }
-  .liked {
-    color: red;
-    border: none;
-    cursor: pointer;
-  }
+ 
